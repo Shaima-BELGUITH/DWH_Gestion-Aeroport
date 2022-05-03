@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_-xHCgLtHEeyOyt8NDyTRwQ" name="Aeroport_MySQL" id="_496xULtGEeyOyt8NDyTRwQ" label="Aeroport_MySQL" dataPackage="_-zzKILtHEeyOyt8NDyTRwQ" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/gestion_aeroport?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="" ServerName="localhost" DatasourceName="" FileFieldName="" SID="gestion_aeroport" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_-xdn0LtHEeyOyt8NDyTRwQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_-ym3ULtHEeyOyt8NDyTRwQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_-yxPYLtHEeyOyt8NDyTRwQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_-yxPYbtHEeyOyt8NDyTRwQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_-yxPYrtHEeyOyt8NDyTRwQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_-yxPY7tHEeyOyt8NDyTRwQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_-yxPZLtHEeyOyt8NDyTRwQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_-yxPZbtHEeyOyt8NDyTRwQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_-zIbwLtHEeyOyt8NDyTRwQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_-zIbwbtHEeyOyt8NDyTRwQ" tag="DB ProductVersion" value="10.4.24-MariaDB"/>
+    <taggedValue xmi:id="_-zIbwrtHEeyOyt8NDyTRwQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_-xdn0btHEeyOyt8NDyTRwQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_-zzKILtHEeyOyt8NDyTRwQ" name="gestion_aeroport" dataManager="_-xHCgLtHEeyOyt8NDyTRwQ"/>
+</xmi:XMI>

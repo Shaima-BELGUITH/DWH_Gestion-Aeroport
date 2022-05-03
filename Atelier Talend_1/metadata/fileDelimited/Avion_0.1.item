@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_E0LVMLtpEeyOyt8NDyTRwQ" name="Avion" dataPackage="_E0LVMbtpEeyOyt8NDyTRwQ" Server="Localhost 127.0.0.1" FilePath="C:/Demo-Talend/Workspace_Shaima/Atelier Talend_1/CSV/Avion.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_E0LVMbtpEeyOyt8NDyTRwQ" name="default" dataManager="_E0LVMLtpEeyOyt8NDyTRwQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_E0LVMrtpEeyOyt8NDyTRwQ" id="_5rH9ILtoEeyOyt8NDyTRwQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0LVM7tpEeyOyt8NDyTRwQ" label="ID_avion" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0LVNLtpEeyOyt8NDyTRwQ" label="Nom_avion" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0LVNbtpEeyOyt8NDyTRwQ" label="ID_date" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_N4lB0LtREeyOyt8NDyTRwQ" name="Passager" dataPackage="_N4lB0btREeyOyt8NDyTRwQ" Server="Localhost 127.0.0.1" FilePath="C:/Demo-Talend/Workspace_Shaima/Atelier Talend_1/CSV/Passager.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_N4lB0btREeyOyt8NDyTRwQ" name="default" dataManager="_N4lB0LtREeyOyt8NDyTRwQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_N4lB0rtREeyOyt8NDyTRwQ" id="_DkGhULtREeyOyt8NDyTRwQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N4lB07tREeyOyt8NDyTRwQ" label="NumVol" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N4lB1LtREeyOyt8NDyTRwQ" label="Nom_passager" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N4lB1btREeyOyt8NDyTRwQ" label="CodePromo" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
